@@ -1,0 +1,56 @@
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+    color: #cc3300;
+}
+
+#bg {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://vnreview.vn/image/18/36/36/1836368.jpg?t=1534130381582&fbclid=IwAR3iiJvQ55D5NfkHalI-0Hdg5UzelSGD7oNURCMV60hb5CS2MdfpfXZkIMs");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu_name{
+    background: none;
+    height:90px;
+    font-family: 'Bangers', cursive;
+    font-size:75px;
+    color:firebrick;
+}
+
+#menu_top{
+    background:none;
+    height: 50px;
+    color:#cc3300;
+}
+
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    border-right: none;
+    color: white;
+}
+
+#menu_top ul li a.active {
+    background: rgb(73, 68, 68);
+
+}

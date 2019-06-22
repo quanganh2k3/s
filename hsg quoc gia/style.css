@@ -1,0 +1,143 @@
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+    color: #cc3300;
+}
+
+#bg {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://vnreview.vn/image/18/36/36/1836368.jpg?t=1534130381582&fbclid=IwAR3iiJvQ55D5NfkHalI-0Hdg5UzelSGD7oNURCMV60hb5CS2MdfpfXZkIMs");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu_name{
+    background: none;
+    height:90px;
+    font-family: 'Bangers', cursive;
+    font-size:75px;
+    color: white;
+}
+
+#menu_top{
+    background:none;
+    height: 50px;
+    color:#cc3300;
+}
+
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    border-right: none;
+    color: white;
+}
+
+#menu_top ul li a.active {
+    background: rgb(73, 68, 68);
+
+}
+
+#main #left {
+    width: 700px;
+    float: left;
+    min-height: 700px;
+}
+
+#main #left table.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+#main #left table.table-bordered td {
+    border: 10px solid #e0e0eb;
+}
+
+table {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    cursor: pointer;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+#main #left table.point {
+    cursor: pointer;
+}
+
+#main #left table.table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+#main #left table a {
+    text-decoration: none;
+    outline: none;
+    color: #007bff;
+    background-color: transparent;
+}
+
+#main #left table span.spanset {
+    margin-top: -1px!important;
+    margin-left: 30px;
+}
+.change{
+    display: inline-block;
+    width: 600px;
+}
+
+.folderset2 {
+    margin-left: -40px;
+    width: 30px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.setbetweentxt {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.headingwrap {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
